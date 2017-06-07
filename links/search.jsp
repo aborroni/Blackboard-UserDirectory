@@ -160,7 +160,7 @@ else
 // Marginally better than hard-coding.
 public static String getUserPicture(String userName)
 {
-return "https://resdev.oberlin.edu/feed/photo/blank/" + userName
+return "https://resdev.oberlin.edu/feed/photo/blank/" + userName;
 }
 
 // If the user has a preferred name, their first (given) name will be in the format
@@ -326,7 +326,7 @@ public static String userImageCode(User user, HashMap<String, String> imageEaste
 {
 StringBuilder result = new StringBuilder();
 
-String userName = user.BatchUid();
+String userName = user.getBatchUid();
 String userPicture = getUserPicture(userName);
 result.append("<img src=\"");
 result.append(userPicture);
