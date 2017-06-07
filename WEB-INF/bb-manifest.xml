@@ -3,11 +3,11 @@
   <!-- core extension information -->
   <plugin>
     <name value= "OCTET User Directory"/>
-    <handle value= "octetusrdir"/>
+    <handle value= "OCusrdir"/>
     <description value= "Search for users on Blackboard."/>
-    <version value= "3000.1.1-rel.6+6024978"/>
+    <version value= "3.1.1"/>
     <requires>
-    	<bbversion value="3000.1.1-rel.6+6024978"/>
+    	<bbversion value="3000.1.1-rel.20+6fbf7f6"/>
     </requires>
     <vendor>
       <id value="octt"/>
@@ -22,7 +22,7 @@
 
     <!-- Tools defined by this extension -->
     <application-defs>
-      <application handle="userdir" type="system" use-ssl="false" name="Profile" can-allow-guest="true"
+      <application handle="userdir2" type="system" use-ssl="false" name="Profile" can-allow-guest="true"
        small-icon="" large-icon="">
         <description lang="en_US">Application installed as part of the OCTET plugin.</description>
         <links>
@@ -30,7 +30,7 @@
             <type value="user_tool"/>
             <name value="OCTET User Directory"/>
             <url value="links/view.jsp"/>
-            <description value="OCTET User Directory." />
+            <description value="OCTET User Directory2." />
             <icons>
               <listitem value="images/icon.gif"/>
             </icons>
