@@ -390,7 +390,9 @@ String userFirstName = (displayPrivilegedInformation || !userPortalRoleId.equals
 result.append(userLastName);
 result.append(", ");
 result.append(userFirstName);
-result.append("</span><br />");
+result.append("</span><br /><i>");
+result.append(user.getTitle());
+result.append("</i><br/>");
 
 if(userPortalRoleId.equals(facultyPortalRole.getId()) || userPortalRoleId.equals(staffPortalRole.getId()))
 {
