@@ -326,7 +326,7 @@ public static String userImageCode(User user, HashMap<String, String> imageEaste
 {
 StringBuilder result = new StringBuilder();
 
-String userName = user.getUserName;//getBatchUid();
+String userName = user.getUserName(); //getBatchUid();
 String userPicture = getUserPicture(userName);
 result.append("<img src=\"");
 result.append(userPicture);
