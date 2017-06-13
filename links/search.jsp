@@ -160,7 +160,7 @@ else
 // Marginally better than hard-coding.
 public static String getUserPicture(String userName)
 {
-return "https://octet1.csr.oberlin.edu/octet/Bb/Photos/expo/"+userName+"/profileImage"; //"https://resdev.oberlin.edu/feed/photo/blank/" + userName;
+return "https://octet1.csr.oberlin.edu/octet/Bb/Photos/expo/" + userName + "/profileImage"; // "https://resdev.oberlin.edu/feed/photo/blank/" + userName;
 }
 
 // If the user has a preferred name, their first (given) name will be in the format
