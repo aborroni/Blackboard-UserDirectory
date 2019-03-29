@@ -26,7 +26,7 @@
        small-icon="" large-icon="">
         <description lang="en_US">Application installed as part of the OCTET plugin.</description>
         <links>
-	      <link>
+	  <link>
             <type value="user_tool"/>
             <name value="OCTET User Directory"/>
             <url value="links/view.jsp"/>
@@ -35,7 +35,20 @@
               <listitem value="images/icon.gif"/>
             </icons>
           </link>
+	
+	  <link>
+            <type value="course_tool"/>
+            <name value="OCTET User Directory"/>
+            <url value="links/view.jsp"/>
+            <description value="OCTET User Directory2." />
+            <icons>
+              <listitem value="images/icon.gif"/>
+            </icons>
+          </link>
+			
+		
         </links>
+	      
       </application>
     </application-defs>
 
