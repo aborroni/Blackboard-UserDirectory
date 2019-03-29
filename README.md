@@ -8,4 +8,4 @@ Students and Staff only see photo, email addrdess and name
 We currently use the 'preferred' name that is found in BANNER as the user's first name in Blackboard
 Try to change something -Frank
 
-3/29/19 added course_tool link and updated Release version in webmanifest file
+3/29/19 added course_tool link and updated Release version in bb-manifest.xml file
